@@ -14,7 +14,7 @@ Os inibidores de proteassoma são uma classe importante de medicamentos para o t
 
 Os dados usados neste projetos originaram do Laboratory innovation science at Harvard. Os dados foram levantados de 23.813 amostras onde foram testados 3.289 tipos de compostos que podem dar origem à fármacos. Obtiveram dados de expressão gênica de 772 genes e de viabilidade celular de 100 tipos celulares. A partir desses dados ele podem prever a reação do organismo aos compostos e criar diferentes tipos de drogas para uso de humanos.
 
-Com os dados iniciais sobre o efeito dos compostos sobre os genes e células testou-se a ativação de diferentes substâncias celulares. É aqui que entra os inbidores de NF-KB e Proteassoma.
+Com os dados iniciais sobre o efeito dos compostos sobre os genes e células testou-se a ativação de 206 diferentes substâncias. É aqui que entra os inbidores de NF-KB e Proteassoma.
 
 ## Objetivos
 
@@ -22,5 +22,4 @@ Esse projeto visa mostrar a importância destes dois inibidores na farmacologia,
 
 ## Descrição do projeto
 
-Iniciei o projeto com as [Análises exploratórias](https://github.com/luancsoliver/imersao-dados-desafio-final/blob/main/Notebooks/Analise_exploratoria.ipynb)
-Para iniciar o planejamento do projeto eu fiz uma pesquisa sobre a importância das substâncias que mais tiveram ativação provocada pelos compostos e, pela listagem, as que mais foram ativadas foram os inibidores de NF-KB e Proteassoma. A partir daí eu quis saber como a ativação destes inibidores afetavam as células. Primeiramente testei com o tipo celular c-0 e depois tirei uma média da resposta de todos os tipos e analisei a resposta que seguiu o mesmo padrão.
+Iniciei o projeto com as [Análises exploratórias](https://github.com/luancsoliver/imersao-dados-desafio-final/blob/main/Notebooks/Analise_exploratoria.ipynb) a partir daí eu iniciei o planejamento do projeto, fiz uma pesquisa sobre a importância das substâncias que mais tiveram ativação provocada pelos compostos e, pela listagem, as que mais foram ativadas foram os inibidores de NF-KB e Proteassoma. Com isso eu quis saber como a ativação destes inibidores afetavam as células. Primeiramente testei com o tipo celular c-0 e depois tirei uma média da resposta de todos os tipos celulares e analisei a resposta que seguiu o mesmo padrão. Encontrei uma resposta significativa das células quando estes inibidores eram ativados. Portanto, a importância deles já se mostrou clara para mim para estes dados. Então achei que seria interessante prever sua ativação utilizando Machine Learning.
