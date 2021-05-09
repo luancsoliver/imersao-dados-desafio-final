@@ -16,6 +16,8 @@ Os dados usados neste projetos originaram do Laboratory innovation science at Ha
 
 Com os dados iniciais sobre o efeito dos compostos sobre os genes e células testou-se a ativação de 206 diferentes substâncias. É aqui que entra os inbidores de NF-KB e Proteassoma.
 
+Toda a descrição e representação do data frame estão em [Análises exploratórias](https://github.com/luancsoliver/imersao-dados-desafio-final/blob/main/Notebooks/Analise_exploratoria.ipynb).
+
 ## Objetivos
 
 Esse projeto visa mostrar a importância destes dois inibidores na farmacologia, mostrar como a ativação deles afeta culturas celulares e criar um modelo de Machine Learning que consegue prever a ativação destes inibidores com as informações genéticas e de viabilidade celular.
@@ -27,6 +29,6 @@ Definido tudo que seria feito fiz a [Análise final](https://github.com/luancsol
 
 ## Conclusão
 
-Os inibidores de NF-KB e Proteassoma foram de essencial importância nesse experimento, mostrando que era um estudo voltado para criação de fármacos para controle de doenças como câncer. Eles foram as substâncias mais ativas pelos compostos e causavam efeito significativo na diminuição da viabilidade celular de todos os tipos de células.
+Os inibidores de NF-KB e Proteassoma foram de essencial importância nesse experimento. O composto mais utiliazado (87d714366) tinha a ativação destes dois inibidores. Tiveram efeito significativo na diminuição da viabilidade celular de todos os tipos de células.
 
 Os modelos que gerei tiveram alto índice de predição, sendo que o modelo do Inibidor de NF-KB teve porcentagem de acerto de 99,16% e o modelo do Inibidor de Proteassoma de 99,47%. As principais variáveis para predição dos modelos foram os valores genéticos, principalmente para o modelo do Inibidor de Proteassoma.
